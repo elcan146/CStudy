@@ -13,6 +13,10 @@
 
 ---
 
+
+https://github.com/user-attachments/assets/68b7a126-019a-4be5-9aa1-b56065e603bc
+
+
 ## What it does
 
 CStudy tracks study time the honest way: a session only counts while your phone is **locked**. Arm the timer, lock the phone, go study — unlock it and the session ends. No cheating, no doomscrolling "breaks" counting as work.
@@ -28,7 +32,7 @@ CStudy tracks study time the honest way: a session only counts while your phone 
 - **Dark & light themes**, animated everything, haptics where they matter.
 
 <div align="center">
-  <img src="assets/loading.jpg" width="220" alt="CStudy splash screen" />
+  <img src="" />
 </div>
 
 ## Tech stack
