@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "CStudy",
+    "slug": "cstudy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.jpg",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#000000",
+    "splash": {
+      "image": "./assets/splash.jpg",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.jpg",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.cstudy.app"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "buildArchs": ["arm64-v8a"],
+            "enableProguardInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true
+          }
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.jpg",
+          "color": "#3B82F6"
+        }
+      ],
+      "expo-build-properties"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "78103eec-f390-447c-b41e-0f6e906c1f7c"
+      }
+    }
+  }
+}

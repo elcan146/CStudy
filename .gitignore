@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+*.log
+
+# secrets / local config
+.env
+local.properties
+*.keystore
+*.jks
+
+# OS / editor
+.DS_Store
+.idea/
+*.iml
+
+# build artifacts (kept locally, not in git)
+*.apk
+/logo.jpg
+/loading.jpg
